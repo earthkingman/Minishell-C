@@ -1,11 +1,5 @@
 #include "minishell.h"
 
-/**
- * *
- * 
- */
-
-
 t_env *env_last(t_env *lst)
 {
     t_env   *tmp;
