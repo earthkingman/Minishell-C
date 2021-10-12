@@ -6,7 +6,7 @@
 /*   By: ji-park <ji-park@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 22:23:32 by ji-park           #+#    #+#             */
-/*   Updated: 2021/10/08 22:26:07 by ji-park          ###   ########.fr       */
+/*   Updated: 2021/10/13 02:23:32 by ji-park          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,5 +57,7 @@ typedef struct s_sh_data
 }					t_sh_data;
 
 t_sh_data	*g_data;
+
+void    main_signal(int sig_number);
 
 #endif
